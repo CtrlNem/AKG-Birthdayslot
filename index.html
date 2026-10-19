@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#101019">
+  <title>WEN BIRTHDAY SLOT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <p class="fanmade">UNOFFICIAL FAN-MADE PROJECT</p>
+    <header>
+      <p class="eyebrow">DECEMBER 06 · BIRTHDAY CELEBRATION</p>
+      <h1>WEN <span>BIRTHDAY</span><br>SLOT</h1>
+      <p class="intro">運を回して、特別なバースデー画像をGET！</p>
+    </header>
+
+    <section class="machine" aria-label="スロットゲーム">
+      <div class="machine-top">BIRTHDAY BONUS CHALLENGE</div>
+      <div class="reels" aria-live="polite">
+        <div class="reel" id="reel1">✦</div>
+        <div class="reel" id="reel2">7</div>
+        <div class="reel" id="reel3">✦</div>
+      </div>
+      <p id="status" class="status">SPINを押してゲームスタート！</p>
+      <button id="spinBtn" class="spin-button">SPIN</button>
+      <div class="counter"><span id="spinCount">0</span> / 10 SPINS</div>
+      <div class="meter"><div id="meterFill"></div></div>
+    </section>
+
+    <section id="result" class="result hidden" aria-live="polite">
+      <p class="win-label">★ BIRTHDAY BONUS ★</p>
+      <h2 id="resultTitle">BONUS GET!</h2>
+      <p id="resultText">特別な画像を受け取ってね！</p>
+      <img id="rewardImage" class="reward-image" src="images/reward-normal.svg" alt="バースデー記念画像">
+      <a id="saveBtn" class="save-button" href="images/reward-normal.svg" download="wen-birthday-normal.svg">画像を保存する</a>
+      <p class="save-help">iPhoneで保存画面が出ない場合は、画像を開いて長押しし、「写真に追加」などを選んでください。</p>
+      <button id="againBtn" class="again-button">もう一度遊ぶ</button>
+    </section>
+
+    <footer>
+      <p>この企画はファンによる非公式のお祝い企画です。公式とは関係ありません。</p>
+      <p class="small">ゲーム内の抽選はブラウザ上で行われます。ページを再読み込みすると回数はリセットされます。</p>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
