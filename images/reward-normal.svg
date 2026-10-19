@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#55232e"/><stop offset="1" stop-color="#101019"/></linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff0bd"/><stop offset="1" stop-color="#c69b48"/></linearGradient>
+</defs>
+<rect width="900" height="1200" rx="36" fill="url(#bg)"/>
+<rect x="28" y="28" width="844" height="1144" rx="28" fill="none" stroke="url(#gold)" stroke-width="5"/>
+<path d="M60 220 L450 65 L840 220 M60 980 L450 1135 L840 980" fill="none" stroke="#bd5260" stroke-width="3" opacity=".8"/>
+<circle cx="450" cy="480" r="190" fill="none" stroke="#bd5260" stroke-width="3" opacity=".65"/>
+<circle cx="450" cy="480" r="155" fill="none" stroke="url(#gold)" stroke-width="2" stroke-dasharray="10 14"/>
+<text x="450" y="135" text-anchor="middle" fill="#f7e6b9" font-family="Georgia,serif" font-size="34" letter-spacing="8">DECEMBER 06</text>
+<text x="450" y="300" text-anchor="middle" fill="url(#gold)" font-family="Georgia,serif" font-size="46" letter-spacing="5">NORMAL BONUS</text>
+<text x="450" y="490" text-anchor="middle" fill="#fff4dc" font-family="Georgia,serif" font-weight="bold" font-size="120">WEN</text>
+<text x="450" y="565" text-anchor="middle" fill="url(#gold)" font-family="Georgia,serif" font-size="42" letter-spacing="4">BIRTHDAY SLOT</text>
+<text x="450" y="740" text-anchor="middle" fill="#fff4dc" font-family="sans-serif" font-size="36">HAPPY BIRTHDAY!</text>
+<text x="450" y="810" text-anchor="middle" fill="#e9d9c2" font-family="sans-serif" font-size="27">A special day, a special spin.</text>
+<path d="M220 900 H680" stroke="#bd5260" stroke-width="3"/>
+<text x="450" y="955" text-anchor="middle" fill="#e9d9c2" font-family="sans-serif" font-size="23">UNOFFICIAL FAN-MADE CELEBRATION</text>
+<text x="450" y="1080" text-anchor="middle" fill="url(#gold)" font-family="Georgia,serif" font-size="34" letter-spacing="5">THANK YOU</text>
+</svg>
